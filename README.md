@@ -103,21 +103,30 @@ Provide a brief explanation of why you chose certain entities, relationships, an
 The entities include:
 
 Patients (identified by PatientID and PatientName)
+
 Doctors (identified by DoctorName and Specialization)
+
 Admissions (identified by AdmissionName and Admission D)
+
 Services (identified by Service Name, such as InPatient Service)
+
 Rooms (identified by Room and RoomCost)
+
 Departments (identified by Departments, such as Pediatrics, Cardiology, and Gynaecology)
+
 Bills (identified by InPatient Bill and Outpatient Bill)
+
 Appointments (identified by AppointmentID)
+
 Hospital (a single entity)
+
 Outpatient Medical Info (identified by OutpatientMedID)
+
 The relationships between these entities seem to capture the following:
 
-A patient can have multiple admissions, and each admission is associated with a service, room, and department.
-A doctor can attend to multiple patients, and each patient is assigned to a doctor.
-A patient can have multiple bills, and each bill is associated with a payment collected by a cashier.
-Regarding billing and payment, the model seems to distinguish between inpatient and outpatient bills. Inpatient bills are associated with admissions, while outpatient bills are associated with appointments. The "Collected by" attribute suggests that the model tracks who collects the payment for each bill. 
+A patient can have multiple admissions, and each admission is associated with a service, room, and department.A doctor can attend to multiple patients, and each patient is assigned to a doctor.A patient can have multiple bills, and each bill is associated with a payment collected by a cashier.
+
+Regarding billing and payment ,Inpatient bills are associated with admissions, while outpatient bills are associated with appointments. The "Collected by" attribute suggests that the model tracks who collects the payment for each bill. 
 
 ## Result 
 Thus ,To analyze the problem and come with the entities in it and identify the constraints in creating the database is done successfully.
