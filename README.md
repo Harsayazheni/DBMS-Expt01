@@ -57,6 +57,49 @@ The concept of prerequisites is implemented through the Contains relationship be
 The Prerequisites relationship is likely implemented as a many-to-many relationship, allowing a course to have multiple prerequisites and a prerequisite course to be required for multiple courses.
 
 Overall, this entity-relationship model appears to be designed to manage student enrollment, course offerings, and program requirements, while also ensuring that students meet the necessary prerequisites for each course.
+### Scenario 2: Hospital Database
+The Hospital Management System is a tailored operational model for healthcare institutions. Its primary function is to efficiently register, store, and retrieve patient and doctor details, allowing meaningful manipulation of the data.
+
+User Requirements:
+
+Patient Management:
+
+The hospital needs to manage information about patients, including their unique PatientID, full name, date of birth, gender, address, contact information (phone number, email), and insurance details.
+Doctor Management:
+
+The hospital employs multiple doctors, each identified by a unique DoctorID.
+Doctor details include full name, specialization, contact information (phone number, email), and work schedule.
+Department Management:
+
+The hospital consists of various departments (e.g., cardiology, pediatrics, oncology).
+Each department is identified by a unique DepartmentID and has attributes such as DepartmentName and DepartmentHead.
+Appointment Scheduling:
+
+Patients can schedule appointments with doctors for medical consultations or procedures.
+Each appointment has a unique AppointmentID and is associated with a specific patient and doctor.
+Appointment details include appointment date and time, reason for the visit, and any additional notes.
+Medical Records:
+
+The hospital needs to maintain electronic medical records for each patient visit.
+Medical records include information about diagnoses, prescribed medications, treatments, test results, and any other relevant medical information.
+Each medical record is associated with a specific patient and doctor and has a unique MedicalRecordID.
+Tasks:
+
+Create an ER diagram for the Hospital Database based on the given scenario.
+
+Identify entities, relationships, and attributes.
+Specify cardinality and participation constraints.
+Extend the ER diagram to include the concept of Billing and Payment for appointments.
+
+The hospital needs to manage billing and payment information for patient visits and services rendered.
+Explain your design choices and assumptions.
+
+Provide a brief explanation of why you chose certain entities, relationships, and how you addressed the concept of billing and payment.
+#### ER Diagram
+![Entity Relationship Diagram Team Whiteboard (1)](https://github.com/Harsayazheni/DBMS-Expt01/assets/118708467/4a4b1791-3006-4903-9ff0-e92ae7bbed5c)
+
+#### Explanation
+
 
 ## Result 
 Thus ,To analyze the problem and come with the entities in it and identify the constraints in creating the database is done successfully.
