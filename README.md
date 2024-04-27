@@ -50,6 +50,7 @@ A Course is part of a Program.
 A Course has Prerequisites, which are other courses that must be completed before taking the course.
 A Student has Attempts at a Course, which represents their enrollment and grade history.
 A Department offers Courses.
+
 Prerequisites:
 
 The concept of prerequisites is implemented through the Contains relationship between Courses. This allows for the representation of hierarchical dependencies between courses, where a course may have one or more prerequisites that must be completed before it can be taken. For example, a course in calculus may have a prerequisite of algebra, indicating that students must complete algebra before enrolling in calculus.
